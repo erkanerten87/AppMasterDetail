@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:design="crl-namespace:AppMasterDetail;assembly=AppMasterDetail"
+             x:Class="AppMasterDetail.Views.LoginPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30" />
+            <RowDefinition Height="80" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="1*" />
+        </Grid.RowDefinitions>
+        <Image Grid.Row="1" Source="@drawable/zt" Aspect="AspectFit" Margin="20"></Image>
+        <Entry x:Name="usernameEntry" Grid.Row="3" Placeholder="Kullanıcı Adı" HorizontalTextAlignment="Center" Margin="5" ></Entry>
+        <Entry x:Name="passwordEntry" Grid.Row="4" Placeholder="Şifre" HorizontalTextAlignment="Center" Margin="5" IsPassword="True"> </Entry>
+        <Image Grid.Row="5" Source="@drawable/enter">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer
+                Tapped="OnTapGestureRecognizerTapped"  />
+            </Image.GestureRecognizers>
+        </Image>
+        
+        <Label x:Name="messageLabel" Text="Kullanıcı adı ya da şifre hatalıdır." TextColor="Red" Grid.Row="6" Margin="5" HorizontalTextAlignment="Center"/>
+        <Label x:Name="lblAbout" Text="Hakkında" Grid.Row="7" Margin="10" HorizontalOptions="Center" VerticalTextAlignment="End">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer
+                Tapped="OnTapAboutGestureRecognizerTapped"  />
+            </Label.GestureRecognizers>
+        </Label>
+    </Grid>
+</ContentPage>

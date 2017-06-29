@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMasterDetail.Views.Detail" Title="Detail" BackgroundColor="LightGray">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="2"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="imgMenu" Source="menu" WidthRequest="50" VerticalOptions="FillAndExpand" HorizontalOptions="Start">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer
+                Tapped="OnImgMenuTapGestureRecognizerTapped"  />
+            </Image.GestureRecognizers>
+        </Image>
+        <BoxView Grid.Row="1" BackgroundColor="DarkGray"></BoxView>
+        <Image Grid.Row="2" VerticalOptions="CenterAndExpand" Source="ztwhite" Margin="50"></Image>
+
+    </Grid>
+        
+    
+</ContentPage>

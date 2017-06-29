@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMasterDetail.Views.Master" Title="Master" Icon="menu">
+    <StackLayout Padding="20">
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Kanal Altyapı"></Label>
+            <Label Text="Çıkış" HorizontalTextAlignment="End" HorizontalOptions="FillAndExpand">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer
+                    Tapped="OnLogOutGestureRecognizerTapped"  />
+                </Label.GestureRecognizers>
+            </Label>
+        </StackLayout>
+        <BoxView HeightRequest="2" BackgroundColor="Gray"></BoxView>
+        <Button x:Name="btnChat" Text="Chat" HeightRequest="60" BorderWidth="1" Clicked="btnChat_Clicked" ></Button>
+        <Button x:Name="btnOnaylar" Text="Onaylar" HeightRequest="60" BorderWidth="1" Clicked="btnOnaylar_Clicked" ></Button>
+        <Button x:Name="btnBsm" Text="BSM" HeightRequest="60" BorderWidth="1" Clicked="btnBsm_Clicked"></Button>
+        <Button x:Name="btnAlarmlar" Text="Alarmlar" HeightRequest="60" BorderWidth="1" Clicked="btnAlarmlar_Clicked"></Button>
+    </StackLayout>
+</ContentPage>

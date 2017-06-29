@@ -1,0 +1,95 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AppMasterDetail", "AppMasterDetail\AppMasterDetail\AppMasterDetail.shproj", "{D992BEA8-AEED-4CB4-86DE-EE7D8E1E9827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMasterDetail.Android", "AppMasterDetail\AppMasterDetail.Android\AppMasterDetail.Android.csproj", "{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMasterDetail.iOS", "AppMasterDetail\AppMasterDetail.iOS\AppMasterDetail.iOS.csproj", "{90A295AE-64FE-441B-89C5-F81F2F066F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRManagement", "AppMasterDetail\SignalRManagement\SignalRManagement.csproj", "{67F9D3A8-F71E-4428-913F-C37AE82CDB24}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		AppMasterDetail\AppMasterDetail\AppMasterDetail.projitems*{90a295ae-64fe-441b-89c5-f81f2f066f67}*SharedItemsImports = 4
+		AppMasterDetail\AppMasterDetail\AppMasterDetail.projitems*{a3a35158-da0c-463f-8ba2-dac1b662fde6}*SharedItemsImports = 4
+		AppMasterDetail\AppMasterDetail\AppMasterDetail.projitems*{d992bea8-aeed-4cb4-86de-ee7d8e1e9827}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|iPhone = Debug|iPhone
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|Any CPU = Release|Any CPU
+		Release|iPhone = Release|iPhone
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Debug|iPhone.Deploy.0 = Debug|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Release|iPhone.Build.0 = Release|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Release|iPhone.Deploy.0 = Release|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{A3A35158-DA0C-463F-8BA2-DAC1B662FDE6}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
+		{90A295AE-64FE-441B-89C5-F81F2F066F67}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{90A295AE-64FE-441B-89C5-F81F2F066F67}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{90A295AE-64FE-441B-89C5-F81F2F066F67}.Debug|iPhone.Build.0 = Debug|iPhone
+		{90A295AE-64FE-441B-89C5-F81F2F066F67}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{90A295AE-64FE-441B-89C5-F81F2F066F67}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{90A295AE-64FE-441B-89C5-F81F2F066F67}.Release|Any CPU.ActiveCfg = Release|iPhone
+		{90A295AE-64FE-441B-89C5-F81F2F066F67}.Release|iPhone.ActiveCfg = Release|iPhone
+		{90A295AE-64FE-441B-89C5-F81F2F066F67}.Release|iPhone.Build.0 = Release|iPhone
+		{90A295AE-64FE-441B-89C5-F81F2F066F67}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{90A295AE-64FE-441B-89C5-F81F2F066F67}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|iPhone.Build.0 = Release|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://fttfssrv:8080/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AppMasterDetail\\AppMasterDetail.Android\\AppMasterDetail.Android.csproj
+		SccProjectName1 = AppMasterDetail/AppMasterDetail.Android
+		SccLocalPath1 = AppMasterDetail\\AppMasterDetail.Android
+		SccProjectUniqueName2 = AppMasterDetail\\AppMasterDetail.iOS\\AppMasterDetail.iOS.csproj
+		SccProjectName2 = AppMasterDetail/AppMasterDetail.iOS
+		SccLocalPath2 = AppMasterDetail\\AppMasterDetail.iOS
+		SccProjectUniqueName3 = AppMasterDetail\\AppMasterDetail\\AppMasterDetail.projitems
+		SccProjectTopLevelParentUniqueName3 = AppMasterDetail\\AppMasterDetail\\AppMasterDetail.shproj
+		SccProjectName3 = AppMasterDetail/AppMasterDetail
+		SccLocalPath3 = AppMasterDetail\\AppMasterDetail
+		SccProjectUniqueName4 = AppMasterDetail\\AppMasterDetail\\AppMasterDetail.shproj
+		SccProjectName4 = AppMasterDetail/AppMasterDetail
+		SccLocalPath4 = AppMasterDetail\\AppMasterDetail
+		SccProjectUniqueName5 = AppMasterDetail\\SignalRManagement\\SignalRManagement.csproj
+		SccProjectName5 = AppMasterDetail/SignalRManagement
+		SccLocalPath5 = AppMasterDetail\\SignalRManagement
+	EndGlobalSection
+EndGlobal
