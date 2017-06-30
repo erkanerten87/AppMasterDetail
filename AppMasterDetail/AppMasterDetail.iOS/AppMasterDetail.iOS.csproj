@@ -140,33 +140,19 @@
     <BundleResource Include="Resources\tab_feed.png" />
     <BundleResource Include="Resources\tab_feed%402x.png" />
     <BundleResource Include="Resources\tab_feed%403x.png" />
+    <BundleResource Include="Resources\drawable\enter.png" />
+    <BundleResource Include="Resources\drawable\menu.png" />
+    <BundleResource Include="Resources\drawable\slideout.png"  />
+    <BundleResource Include="Resources\drawable\splash_centered.xml" />
+    <BundleResource Include="Resources\drawable\zt.png" />
+    <BundleResource Include="Resources\drawable\ztsymbol.png" />
+    <BundleResource Include="Resources\drawable\ztwhite.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SignalRManagement\SignalRManagement.csproj">
       <Project>{67F9D3A8-F71E-4428-913F-C37AE82CDB24}</Project>
       <Name>SignalRManagement</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\enter.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\menu.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\slideout.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\splash_centered.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\zt.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\ztsymbol.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable\ztwhite.png" />
   </ItemGroup>
   <Import Project="..\AppMasterDetail\AppMasterDetail.projitems" Label="Shared" Condition="Exists('..\AppMasterDetail\AppMasterDetail.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
